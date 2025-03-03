@@ -51,9 +51,9 @@ def main():
 
     print("LangBase:", completion_text)
     print("--------------------------")
-    print("Tokens used: ", raw_data['usage']['total_tokens'])
+    print("Tokens used:", raw_data['usage']['total_tokens'])
     print("--------------------------")
-    print("Raw: ", raw_data)
+    print("Raw:", raw_data)
 
 if __name__ == "__main__":
     main()
